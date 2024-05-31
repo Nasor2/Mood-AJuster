@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(115, 115, 194);
+    font-family:  Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 90%;
+}
+.emoji{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.button{
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#incre{
+    background-color: greenyellow;
+}
+#decre{
+    background-color: red;
+}
+#reset{
+    background-color: lightslategray;
+}
+#emoji_display{
+    font-size: 160px;
+}
+.affect_container{
+    font-size: 30px;
+    display: flex;
+}
+#affect{
+    margin-left: 10px;
+}
